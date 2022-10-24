@@ -306,7 +306,7 @@ section {
 .popup {
   width: 100%;
   max-width: 800px;
-  height: 500px;
+  height: 900px;
   position: relative;
   display: flex;
   top: 50%;
@@ -317,6 +317,7 @@ section {
 }
 .popup img{
   border-radius: 20px;
+  width: 300px;
 }
 
 .img {
@@ -327,7 +328,7 @@ section {
 }
 
 .container-text {
-  width: 60%;
+  width: 100%;
   padding: 50px;
   overflow-y: auto;
 }
