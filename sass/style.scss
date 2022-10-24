@@ -126,25 +126,25 @@ section {
   .contenedor {
     display: flex;
     flex-wrap: wrap;
+  }
 
+  .noticia1, .noticia2, .noticia3, .noticia4, .noticia5 {
+    text-align: center;
+  }
+
+  .contenedor {
     .noticia1 img {
-      width: 370px;
+      width: 33 0px;
       float: left;
       margin-left: 20px;
       padding: 20px;
     }
 
-    .noticia3 {
-      img {
-        width: 390px;
-        float: left;
-        margin-left: 20px;
-        padding: 20px;
-      }
-
-      .btn btn-primary btn-lg:hover {
-        color: #fff;
-      }
+    .noticia3 img {
+      width: 330px;
+      float: left;
+      margin-left: 20px;
+      padding: 20px;
     }
   }
 

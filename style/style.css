@@ -109,20 +109,32 @@ section {
     display: flex;
     flex-wrap: wrap;
   }
+  .noticia1{
+    text-align: center;
+  }
+  .noticia2{
+    text-align: center;
+  }
+  .noticia3{
+    text-align: center;
+  }
+  .noticia4{
+    text-align: center;
+  }
+  .noticia5{
+    text-align: center;
+  }
   .contenedor .noticia1 img {
-    width: 370px;
+    width: 33 0px;
     float: left;
     margin-left: 20px;
     padding: 20px;
   }
   .contenedor .noticia3 img {
-    width: 390px;
+    width: 330px;
     float: left;
     margin-left: 20px;
     padding: 20px;
-  }
-  .contenedor .noticia3 .btn btn-primary btn-lg:hover {
-    color: #fff;
   }
   .chillers {
     display: flex;
