@@ -191,7 +191,7 @@ section {
     width: 100%;
   }
 }
-@media (max-width: 1629px) {
+@media (max-width: 2229px) {
   .chillers {
     width: 100%;
     display: flex;
@@ -286,15 +286,16 @@ section {
 }
 
 .container-all {
-  width: 80%;
+  width: 100%;
   height: 100%;
   position: fixed;
-  top: 100px;
-  left: 80px;
+  top: 0px;
+  left: 0px;
   background: rgba(0, 0, 0, 0.6);
   visibility: hidden;
   opacity: 0;
   transition: all 600ms;
+  
 }
 .container-all:target {
   background: rgba(0, 0, 0, 0.8);
@@ -312,6 +313,10 @@ section {
   left: 50%;
   transform: translate(-50%, -50%);
   background: #fff;
+  border-radius: 20px;
+}
+.popup img{
+  border-radius: 20px;
 }
 
 .img {
@@ -408,7 +413,7 @@ section {
 }
 
 p {
-  line-height: 45px;
+  line-height: 31px;
 }
 
 .content {
