@@ -87,6 +87,7 @@ section {
 @media (max-width: 767px) {
   .checkbtn {
     display: block;
+    margin-top: 20px;
   }
 
   nav {
@@ -129,8 +130,22 @@ section {
     flex-wrap: wrap;
   }
 
-  .noticia1, .noticia2, .noticia3, .noticia4, .noticia5 {
+  .noticia1 {
     text-align: center;
+  }
+
+  .noticia2 {
+    text-align: center;
+    margin-left: 35px;
+  }
+
+  .noticia3 {
+    text-align: center;
+  }
+
+  .noticia4, .noticia5 {
+    text-align: center;
+    margin-left: 35px;
   }
 
   .contenedor {
@@ -229,6 +244,7 @@ section {
 
   iframe {
     text-align: center;
+    align-items: center;
     width: 100%;
   }
 
@@ -236,6 +252,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 40px;
   }
 }
 
@@ -395,6 +412,10 @@ section {
   padding: 50px;
   overflow-y: auto;
 
+  li {
+    margin-right: 40px;
+  }
+
   h1 {
     font-size: 30px;
   }
@@ -531,10 +552,14 @@ p {
       padding: 1em;
     }
   }
+
+  h3 {
+    padding: 15px;
+    text-decoration: underline;
+  }
 }
 
 .content {
-  margin-top: 20px;
   border-radius: 10px;
 
   .content {

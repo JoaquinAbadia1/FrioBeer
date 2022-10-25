@@ -80,6 +80,7 @@ section {
 @media (max-width: 767px) {
   .checkbtn {
     display: block;
+    margin-top: 20px;
   }
   nav ul {
     position: fixed;
@@ -116,15 +117,18 @@ section {
   }
   .noticia2{
     text-align: center;
+    margin-left: 35px;
   }
   .noticia3{
     text-align: center;
   }
   .noticia4{
     text-align: center;
+    margin-left: 35px;
   }
   .noticia5{
     text-align: center;
+    margin-left: 35px;
   }
   .contenedor .noticia1 img {
     width: 360px;
@@ -207,12 +211,15 @@ section {
   }
   iframe {
     text-align: center;
+    align-items: center;
     width: 100%;
+    
   }
   .redes-container{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 40px;
   }
 }
 @media (max-width: 2229px) {
@@ -356,6 +363,9 @@ section {
   padding: 50px;
   overflow-y: auto;
 }
+.container-text li{
+  margin-right: 40px;
+}
 .container-text h1 {
   font-size: 30px;
 }
@@ -481,9 +491,13 @@ p {
   text-transform: uppercase;
   padding: 1em;
 }
+.contact-form h3{
+  padding: 15px;
+  text-decoration: underline;
+}
 
 .content {
-  margin-top: 20px;
+  
   border-radius: 10px;
 }
 .content .content {
