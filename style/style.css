@@ -36,6 +36,7 @@ nav ul li a {
 nav li a.active, nav li a:hover {
   background: #000090;
   transition: 0.5s;
+  color: #fff;
 }
 
 .enlace {
@@ -150,6 +151,9 @@ section {
   .card img {
     width: 400px;
   }
+  .card #contenido{
+    text-align: center;
+  }
   .carousel-inner, #carouselExampleControls {
     display: none;
   }
@@ -209,6 +213,11 @@ section {
     display: flex;
     flex-wrap: wrap;
   }
+  .contenedorservicio{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
   iframe {
     text-align: center;
     align-items: center;
@@ -222,6 +231,7 @@ section {
     margin-left: 40px;
   }
 }
+
 @media (max-width: 2229px) {
   .chillers {
     width: 100%;
@@ -273,6 +283,12 @@ section {
   .contenedor {
     display: flex;
     flex-wrap: wrap;
+  }
+  .card #contenido{
+    max-width: 600px;
+    text-align: center;
+    margin-left: 30px;
+    overflow-y: auto;
   }
   .contenedor img {
     width: 300px;
@@ -425,11 +441,13 @@ section {
 .chiller-3 img {
   float: left;
 }
-
+.contenedorservicio{
+  display: flex;  
+}
 .serviciotecnico {
   text-align: justify;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 30px;
+  margin-right: 15px;
 }
 .serviciotecnico h1 {
   text-decoration: underline;
@@ -439,12 +457,14 @@ section {
 
 .mantenimiento {
   text-align: justify;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 30px;
+  margin-right: 15px;
+  margin-top: 30px;
 }
 .mantenimiento h3 {
   text-align: center;
   text-decoration: underline;
+  margin-bottom: 42px;
 }
 
 p {
@@ -458,6 +478,7 @@ p {
   padding: 1.5em;
   background-color: #0E3A73;
   color: #F2BD1D;
+  margin-bottom: 50px;
 }
 
 .logo {
@@ -542,7 +563,6 @@ p {
   border-radius: 10px;
   margin-bottom: 50px;
 }
-
 footer {
   background-color: #2c3e50;
   color: #fff;
