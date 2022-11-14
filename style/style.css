@@ -86,7 +86,7 @@ section {
     margin-right: 5px;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 820px) {
   .checkbtn {
     display: block;
     margin-top: 20px;
@@ -138,6 +138,7 @@ section {
   .noticia5{
     text-align: center;
     margin-left: 35px;
+    margin-bottom: 50px;
   }
   .contenedor .noticia1 img {
     width: 360px;
@@ -221,6 +222,7 @@ section {
     display: flex;
     color: #fff;
     flex-wrap: wrap;
+    text-align: center;
   }
   .footer-display{
     display: flex;
@@ -235,6 +237,7 @@ section {
     text-align: center;
     align-items: center;
     width: 100%;
+    text-align: center;
     
   }
   .redes-container{
@@ -355,6 +358,7 @@ section {
   visibility: hidden;
   opacity: 0;
   transition: all 600ms;
+  margin-top: 100px;
   
 }
 .container-all:target {
@@ -366,7 +370,7 @@ section {
 .popup {
   width: 100%;
   max-width: 800px;
-  height: 900px;
+  height: 6500px;
   position: relative;
   display: flex;
   top: 50%;
@@ -378,6 +382,7 @@ section {
 .popup img{
   border-radius: 20px;
   width: 300px;
+  align-items: center;
 }
 
 .img {
