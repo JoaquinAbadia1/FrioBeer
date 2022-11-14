@@ -370,7 +370,7 @@ section {
 .popup {
   width: 100%;
   max-width: 800px;
-  height: 6500px;
+  height: 650px;
   position: relative;
   display: flex;
   top: 50%;
